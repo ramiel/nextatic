@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "./package.json",
+      "src": "./site/package.json",
       "use": "@vercel/next"
     }
   ],
   "rewrites": [
     {
       "source": "/e/(.*)",
-      "destination": "/e/$1"
+      "destination": "/site/e/$1"
     }
   ]
 }
