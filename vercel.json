@@ -8,6 +8,10 @@
   ],
   "rewrites": [
     {
+      "source": "/e",
+      "destination": "/site/e"
+    },
+    {
       "source": "/e/(.*)",
       "destination": "/site/e/$1"
     }
